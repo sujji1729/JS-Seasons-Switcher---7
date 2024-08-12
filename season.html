@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Seasons Switcher</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="season.css">
+
+  </head>
+
+  <body>
+      
+    <div>
+
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png" class="season-image d-none d-md-inline" id="seasonSmallImage" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png" class="season-image d-inline d-md-none" id="seasonMediumImage" />
+
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <button class="button spring-button" onclick="spring()">Spring</button>
+            <button class="button summer-button" onclick="summer()">Summer</button>
+            <button class="button autumn-button" onclick="autumn()">Autumn</button>
+            <button class="button winter-button" onclick="winter()">Winter</button>
+        </div>
+
+    </div>
+
+    <!-- javaScript -->
+    <script src="season.js"></script>
+
+  </body>
+</html>
